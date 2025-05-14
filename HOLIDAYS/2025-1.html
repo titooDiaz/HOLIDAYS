@@ -5,70 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Horario de Vacaciones 2025-1</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"/>
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-      background: #f8f9fa;
-      color: #333;
-      margin: 0;
-      padding: 2rem;
-    }
+  <link rel="stylesheet" href="../style/2025-1.css">
+  
 
-    .container {
-      max-width: 700px;
-      margin: 0 auto;
-      background: #ffffff;
-      padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    }
-
-    h1 {
-      text-align: center;
-      color: #4a4e69;
-      margin-bottom: 1.5rem;
-    }
-
-    .horario {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 1rem;
-    }
-
-    .bloque {
-      background: #eaeaea;
-      padding: 1rem;
-      border-left: 5px solid #9a8c98;
-      border-radius: 12px;
-      transition: 0.3s;
-    }
-
-    .bloque:hover {
-      background: #d6d6d6;
-    }
-
-    .hora {
-      font-weight: 600;
-      color: #22223b;
-    }
-
-    .actividad {
-      color: #4a4e69;
-    }
-
-    footer {
-      margin-top: 2rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #999;
-    }
-
-    @media (max-width: 600px) {
-      .horario {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  <div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>¡Hola Miguel!</h2>
+    <p id="mensaje"></p>
+  </div>
+</div>
 </head>
 <body>
   <div class="container">
@@ -92,6 +38,7 @@
       Hecho con 💙 por Miguel | Vacaciones 2025-1
     </footer>
   </div>
+
+  <script src="../js/2025-1.js"></script>
 </body>
 </html>
-
